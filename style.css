@@ -1,0 +1,61 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+:root {
+  --vermelho-claro: #f8d7da;
+  --vermelho-medio: #dc3545;
+  --vermelho-escuro: #a71d2a;
+  --vermelho-destaque: #e74c3c;
+  --fundo-pagina: #fff5f5;
+  --texto-primario: #4a0c12;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-primario);
+}
+
+p {
+  color: var(--vermelho-escuro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h5 {
+  color: var(--vermelho-medio);
+  font-weight: 700;
+}
+
+a {
+  color: var(--vermelho-destaque);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vermelho-escuro);
+  text-decoration: underline;
+}
+
+.badge.bg-secondary {
+  background-color: var(--vermelho-medio) !important;
+  color: white;
+}
+
+.card-title {
+  color: var(--vermelho-escuro);
+}
+
+.btn-link {
+  color: var(--vermelho-destaque);
+}
+
+.btn-link:hover {
+  color: var(--vermelho-escuro);
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 2px solid var(--vermelho-medio);
+}
